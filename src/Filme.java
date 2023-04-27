@@ -1,6 +1,6 @@
 public class Filme {
-    String name;
-    int anoDELancamento;
+    String nome;
+    int anoDeLancamento;
     boolean incluidoNoPLano;
     double avaliacao;
     int totalDeAvaliacoes;
