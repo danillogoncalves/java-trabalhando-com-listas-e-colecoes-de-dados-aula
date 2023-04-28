@@ -9,12 +9,10 @@ public class Principal {
         meuFilme.avalia(8);
         meuFilme.avalia(5);
         meuFilme.avalia(10);
-
-        System.out.println(meuFilme.somaDasAvaliacao);
-        System.out.println(meuFilme.totalDeAvaliacoes);
+        System.out.println("Total de avaliação: " + meuFilme.getTotalDeAvaliacoes());
         System.out.println(meuFilme.pegaMedia());
-        meuFilme.somaDasAvaliacao = 10;
-        meuFilme.totalDeAvaliacoes = 1;
-        System.out.println(meuFilme.pegaMedia());
+        //meuFilme.somaDasAvaliacao = 10;
+        //meuFilme.totalDeAvaliacoes = 1;
+        //System.out.println(meuFilme.pegaMedia());
     }
 }
