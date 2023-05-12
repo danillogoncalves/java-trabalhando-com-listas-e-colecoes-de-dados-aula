@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82683642-3732-4c3a-b925-56b544357fba" name="Changes" comment="Definindo outras formas de construir filmes e séries">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/principalComListas.java" afterDir="false" />
+    <list default="true" id="82683642-3732-4c3a-b925-56b544357fba" name="Changes" comment="Tipos diferentes de objetos na lista&#10;Identificando o objeto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/principalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/principalComListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683591057235</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Tipos diferentes de objetos na lista&#10;Identificando o objeto">
+      <created>1683849683924</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683849683924</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +244,7 @@
     <MESSAGE value="Entendendo a hierarquia de classes e métodos" />
     <MESSAGE value="Construindo objetos com valores" />
     <MESSAGE value="Definindo outras formas de construir filmes e séries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Definindo outras formas de construir filmes e séries" />
+    <MESSAGE value="Tipos diferentes de objetos na lista&#10;Identificando o objeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tipos diferentes de objetos na lista&#10;Identificando o objeto" />
   </component>
 </project>

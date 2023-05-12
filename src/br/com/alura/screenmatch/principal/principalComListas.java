@@ -8,35 +8,54 @@ import java.util.ArrayList;
 
 public class principalComListas {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme("O poderoso chefão", 1970);
-        meuFilme.avalia(9);
-        Filme outroFilme = new Filme("Avatar", 2023);
-        outroFilme.avalia(6);
-        var filmeDoPaulo = new Filme("Dogville", 2003);
-        filmeDoPaulo.avalia(10);
-        Serie lost = new Serie("Lost", 2000);
+//        Filme meuFilme = new Filme("O poderoso chefão", 1970);
+//        meuFilme.avalia(9);
+//        Filme outroFilme = new Filme("Avatar", 2023);
+//        outroFilme.avalia(6);
+//        var filmeDoPaulo = new Filme("Dogville", 2003);
+//        filmeDoPaulo.avalia(10);
+//        Serie lost = new Serie("Lost", 2000);
+//
+//        Filme f1 = filmeDoPaulo;
+//
+//        ArrayList<Titulo> lista= new ArrayList<>();
+//        lista.add(filmeDoPaulo);
+//        lista.add(meuFilme);
+//        lista.add(outroFilme);
+//        lista.add(lost);
+//
+//        for (Titulo item : lista) {
+//            System.out.println(item.getNome());
+//            if (item instanceof Filme filme && filme.getClassificacao() > 3) {
+//                System.out.println("Classificação " + filme.getClassificacao());
+//            }
+//        }
+//        filmeDoPaulo.setDiretor("Danillo");
+//        System.out.println(filmeDoPaulo.getDiretor());
+//        System.out.println(f1.getDiretor());
+//        f1.setDiretor("Paty");
+//        System.out.println(filmeDoPaulo.getDiretor());
+//        System.out.println(f1.getDiretor());
+//        lista.forEach(System.out::println);
+        Filme favorito = new Filme("The Matrix", 1999);
+        favorito.avalia(10);
 
-        Filme f1 = filmeDoPaulo;
+        Filme outroFilme = new Filme("John Wick", 2014);
+        outroFilme.avalia(9);
 
-        ArrayList<Titulo> lista= new ArrayList<>();
-        lista.add(filmeDoPaulo);
-        lista.add(meuFilme);
+        Serie serie = new Serie("La Casa de Papel", 2017);
+
+        ArrayList<Titulo> lista = new ArrayList<>();
+        lista.add(favorito);
         lista.add(outroFilme);
-        lista.add(lost);
+        lista.add(serie);
 
         for (Titulo item : lista) {
-            System.out.println(item.getNome());
-            if (item instanceof Filme filme && filme.getClassificacao() > 3) {
-                System.out.println("Classificação " + filme.getClassificacao());
+            System.out.println("Nome: " + item.getNome());
+            if (item instanceof Filme filme) {
+                System.out.println("Classificação: " + filme.getClassificacao());
             }
         }
-        filmeDoPaulo.setDiretor("Danillo");
-        System.out.println(filmeDoPaulo.getDiretor());
-        System.out.println(f1.getDiretor());
-        f1.setDiretor("Paty");
-        System.out.println(filmeDoPaulo.getDiretor());
-        System.out.println(f1.getDiretor());
-//        lista.forEach(System.out::println);
     }
 
 }
