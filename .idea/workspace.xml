@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82683642-3732-4c3a-b925-56b544357fba" name="Changes" comment="Identificando o objeto">
+    <list default="true" id="82683642-3732-4c3a-b925-56b544357fba" name="Changes" comment="Ordenando a lista">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/principalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/principalComListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683850362021</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Ordenando a lista">
+      <created>1683851448973</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683851448973</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +261,7 @@
     <MESSAGE value="Definindo outras formas de construir filmes e séries" />
     <MESSAGE value="Tipos diferentes de objetos na lista&#10;Identificando o objeto" />
     <MESSAGE value="Identificando o objeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Identificando o objeto" />
+    <MESSAGE value="Ordenando a lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ordenando a lista" />
   </component>
 </project>
